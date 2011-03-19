@@ -14,8 +14,8 @@ def symlink(source, dest):
 
 home = os.path.abspath(os.environ['HOME'])
 path = os.path.join(home, '.dotfiles')
-deep_dir_bases = ['gconf/apps']
-excludes = ['gtk-2.0', 'create_symlink.py']
+deep_dir_bases = []
+excludes = ['create_symlink.py']
 
 deep_dir_heads = [os.path.split(deep_dir)[0] for deep_dir in deep_dir_bases]
 
