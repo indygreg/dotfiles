@@ -1,12 +1,14 @@
 [user]
-        name = Gregory Szorc
-        email = gregory.szorc@gmail.com
+	name = Gregory Szorc
+	email = gregory.szorc@gmail.com
+
 
 [core]
-        whitespace = trailing-space,space-before-tab
-        editor = vim
+	whitespace = trailing-space,space-before-tab
+	editor = vim
 [color]
-        branch = auto
-        diff = auto
-        status = auto
-
+	branch = auto
+	diff = auto
+	grep = auto
+	interactive = auto
+	status = auto
